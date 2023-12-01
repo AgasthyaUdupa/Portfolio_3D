@@ -62,16 +62,16 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: nextjs,
         name: "Next.js",
@@ -87,26 +87,26 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
@@ -173,12 +173,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/AgasthyaUdupa',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/agasthya-udupa2001',
     }
 ];
 
@@ -211,18 +211,18 @@ export const projects = [
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    // {
+    //     iconUrl: estate,
+    //     theme: 'btn-back-black',
+    //     name: 'Real-Estate Application',
+    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+    //     link: 'https://github.com/adrianhajdin/projects_realestate',
+    // },
+    // {
+    //     iconUrl: summiz,
+    //     theme: 'btn-back-yellow',
+    //     name: 'AI Summarizer Application',
+    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    // }
 ];
