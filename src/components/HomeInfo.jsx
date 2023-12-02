@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Agasthya Udupa</span>
         👋
         <br />
-        A Full Stack NExt.Js Developer
+        A Full Stack Next.Js Developer
       </h1>
     );
 
