@@ -18,13 +18,13 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+        Download My Resume here...
         </p>
 
-        <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-        </Link>
+        <a href="/AgasthyaUdupa-Resume.pdf" className='neo-brutalism-white neo-btn' download={true}>
+       Resume ↓ 
+          {/* <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' /> */}
+        </a>
       </div>
     );
   }
