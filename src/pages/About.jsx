@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import { CTA } from "../components";
-import { experiences, skills } from "../constants";
+import { studies, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -22,8 +22,9 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        I am a highly motivated individual with a Bachelor's degree in Computer Applications (BCA) and a passion for full-stack web development. With a strong foundation in JavaScript, ReactJS, Next.js, Express.js, MongoDB, Tailwind CSS, HTML, and CSS. My commitment to staying at the forefront of technology is evident in my constant drive to learn and adapt to new programming trends and methodologies. I believe in the power of continuous self-improvement and am always eager to take on new challenges in the dynamic world of web development.
+
+When I'm not coding, I am an avid Cricketer who understands the importance of teamwork, discipline, and strategy on and off the field. My dedication to fitness not only keeps me physically active but also helps me maintain focus and mental clarity in my work. Additionally, I have a keen interest in music and am currently in the process of learning to play the Guitar . These hobbies reflect my well-rounded nature and my drive to excel in various facets of life, whether it's in the coding realm or pursuing my passions outside of work.
         </p>
       </div>
 
@@ -47,7 +48,7 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
             I've worked with all sorts of companies, leveling up my skills and
@@ -57,16 +58,16 @@ const About = () => {
 
         <div className='mt-12 flex'>
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {studies.map((studies, index) => (
               <VerticalTimelineElement
-                key={experience.company_name}
-                date={experience.date}
-                iconStyle={{ background: experience.iconBg }}
+                key={studies.institute_name}
+                date={studies.date}
+                iconStyle={{ background: studies.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
                     <img
-                      src={experience.icon}
-                      alt={experience.company_name}
+                      src={studies.icon}
+                      alt={studies.institute_name}
                       className='w-[60%] h-[60%] object-contain'
                     />
                   </div>
@@ -74,26 +75,26 @@ const About = () => {
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: studies.iconBg,
                   boxShadow: "none",
                 }}
               >
                 <div>
                   <h3 className='text-black text-xl font-poppins font-semibold'>
-                    {experience.title}
+                    {studies.title}
                   </h3>
                   <p
                     className='text-black-500 font-medium text-base'
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    {studies.institute_name}
                   </p>
                 </div>
 
                 <ul className='my-5 list-disc ml-5 space-y-2'>
-                  {experience.points.map((point, index) => (
+                  {studies.points.map((point, index) => (
                     <li
-                      key={`experience-point-${index}`}
+                      key={`studies-point-${index}`}
                       className='text-black-500/50 font-normal pl-1 text-sm'
                     >
                       {point}

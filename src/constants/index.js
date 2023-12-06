@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -11,20 +9,15 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    threads
 } from "../assets/icons";
+import { school } from "../assets/images";
 
 export const skills = [
     {
@@ -109,59 +102,50 @@ export const skills = [
     // }
 ];
 
-export const experiences = [
+export const studies = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Bachelor Of Computer Application (Bca) ",
+        institute_name: "At G.F.G.C Thirthahalli",
+        icon: school,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        // date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            'I have studied My Bca Degree in Government First Grade College,Thirthahalli,Shivamogga.'
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "2nd Puc",
+        institute_name: "At SVS PU College ",
+        icon: school,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        // date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+         'I have studied 2nd Puc in Sri Venkataramana College in Bantwal (D.k).'
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "10th Std ",
+        institute_name: "At Sahyadri School I.C.S.E",
+        icon: school,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        // date: "Jan 2022 - Jan 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            'I have studied 10th Std Sahyadri I.C.S.E School in Thirthahalli,Shivamogga.'
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     institute_name: "Meta",
+    //     icon: school,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [

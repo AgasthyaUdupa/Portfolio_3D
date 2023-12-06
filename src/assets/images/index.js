@@ -1,5 +1,6 @@
 import hero from './hero.jpg'
 import meta from './meta.png'
+import school from './school.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
@@ -11,5 +12,6 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    school
 }
