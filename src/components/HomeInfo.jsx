@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Agasthya Udupa</span>
         👋
         <br />
-        A Full Stack Next.Js Developer
+        A Full Stack Web Developer
       </h1>
     );
 
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-         Created many projects in <br /> Next.Js
+         Created some projects <br />Check them Out
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
@@ -48,11 +48,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+       Know more <span className='font-bold'>About Me</span>?
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
+        Contact Me
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
