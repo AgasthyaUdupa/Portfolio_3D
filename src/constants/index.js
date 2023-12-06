@@ -1,21 +1,21 @@
 import {
-    car,
+    cart,
     contact,
     css,
     express,
     git,
     github,
+    gym,
     html,
     javascript,
     linkedin,
     mongodb,
     nextjs,
     nodejs,
-    pricewise,
     react,
     snapgram,
     tailwindcss,
-    threads
+    todolist
 } from "../assets/icons";
 import { school } from "../assets/images";
 
@@ -168,21 +168,21 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: cart,
         theme: 'btn-back-red',
         name: 'E-Commerce With Admin Panel',
         description: 'Developed an E-commerce with Admin Panel and with Stripe integration using PayloadCMS .',
         link: 'https://github.com/AgasthyaUdupa/e-commerce-payload',
     },
     {
-        iconUrl: threads,
+        iconUrl: todolist,
         theme: 'btn-back-green',
         name: 'Todo-List',
         description: 'Created a Todo list website just using React.',
         link: 'https://github.com/AgasthyaUdupa/todo-react',
     },
     {
-        iconUrl: car,
+        iconUrl: gym,
         theme: 'btn-back-blue',
         name: 'Gym Management System',
         description: `Built a Gym management system as my Bca degree's Group project.`,
