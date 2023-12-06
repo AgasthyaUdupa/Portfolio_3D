@@ -20,12 +20,27 @@ const About = () => {
         👋
       </h1>
 
-      <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-        I am a highly motivated individual with a Bachelor's degree in Computer Applications (BCA) and a passion for full-stack web development. With a strong foundation in JavaScript, ReactJS, Next.js, Express.js, MongoDB, Tailwind CSS, HTML, and CSS. My commitment to staying at the forefront of technology is evident in my constant drive to learn and adapt to new programming trends and methodologies. I believe in the power of continuous self-improvement and am always eager to take on new challenges in the dynamic world of web development.
+      <div className='mt-5 flex flex-col gap-3 text-black-400'>
+      <p className="mb-3">
+      I am a highly motivated individual with a Bachelor's degree in Computer Applications (BCA) 
+      and a passion for full-stack web development. 
+      With a strong foundation in  
+      <span className="font-medium italic"> JavaScript, ReactJS, Next.js, Express.js, MongoDB, Tailwind CSS, HTML, and CSS</span>.
+       My commitment to staying at the 
+      forefront of technology is evident in my constant drive to learn 
+      and adapt to new programming trends and methodologies. I believe in the power of continuous
+       self-improvement and am always eager to take on new challenges in the dynamic world of web development.
+      </p>
 
-When I'm not coding, I am an avid Cricketer who understands the importance of teamwork, discipline, and strategy on and off the field. My dedication to fitness not only keeps me physically active but also helps me maintain focus and mental clarity in my work. Additionally, I have a keen interest in music and am currently in the process of learning to play the Guitar . These hobbies reflect my well-rounded nature and my drive to excel in various facets of life, whether it's in the coding realm or pursuing my passions outside of work.
-        </p>
+      <p>
+         <span className="italic">When I'm not coding</span>,  I am an avid <span className="font-medium">Cricketer</span> who understands the importance of teamwork,
+         discipline, and strategy on and off the field.
+          My dedication to fitness not only keeps me physically active 
+          but also helps me maintain focus and mental clarity in my work.
+          Additionally, I have a keen interest in music and am currently in the process of learning to play the<span className="font-medium"> Guitar</span> .
+          These hobbies reflect my well-rounded nature and my drive to excel in various facets of life, 
+          whether it's in the coding realm or pursuing my passions outside of work.
+      </p>
       </div>
 
       <div className='py-10 flex flex-col'>
@@ -51,8 +66,7 @@ When I'm not coding, I am an avid Cricketer who understands the importance of te
         <h3 className='subhead-text'>Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+           I have completed my Degree in <span className='text-slate-700'>Bachelor Of Computer Application(Bca)</span>  in 2023.Now I'm Pursuing my masters degree in <span className='text-slate-700'>Master Of Computer Application(Mca)</span> .
           </p>
         </div>
 
