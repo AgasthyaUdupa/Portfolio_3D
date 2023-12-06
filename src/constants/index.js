@@ -186,14 +186,14 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Gym Management System',
         description: `Built a Gym management system as my Bca degree's Group project.`,
-        // link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://github.com/AgasthyaUdupa/gym-management',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Full Stack Instagram Clone',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        // link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github.com/AgasthyaUdupa/instagram-clone',
     },
     // {
     //     iconUrl: estate,
