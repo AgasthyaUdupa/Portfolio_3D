@@ -15,7 +15,7 @@ import {
     react,
     snapgram,
     tailwindcss,
-    todolist
+    todolist,threadsapp
 } from "../assets/icons";
 import { school } from "../assets/images";
 
@@ -189,9 +189,9 @@ export const projects = [
         link: 'https://github.com/AgasthyaUdupa/gym-management',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: threadsapp,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
+        name: 'Full Stack Threads Clone',
         description: 'Built a complete clone of Threads, allowing users to share their thoughts and connect with friends in a familiar social media environment.',
         link: 'https://github.com/AgasthyaUdupa/threads-clone',
     },

@@ -29,9 +29,12 @@ import soundoff from './soundoff.png'
 import gym from './gym.svg'
 import cart from './cart.svg'
 import todolist from './todolist.svg'
+import threadsapp from './threads-app.svg'
+
 
 export {
     css,
+    threadsapp,
     express,
     git,
     github,
